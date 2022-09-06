@@ -1,0 +1,16 @@
+{
+    "campuses": [
+      {
+        "name": "University of Florida",
+        "imageUrl": "https://imgs.search.brave.com/qfV9sGuUoqq2TjyDIz-X-skvCmA_Cig_I--UrU2hd9M/rs:fit:664:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Z/RXhPSkRZUEtzeXly/RGxpbnlRTm5BSGFG/UyZwaWQ9QXBp",
+        "address": "Gainsville, FL",
+        "description": "The University of Florida is a public land-grant research university in Gainesville, Florida. It is a senior member of the State University System of Florida, traces its origins to 1853, and has operated continuously on its Gainesville campus since September 1906."
+      },
+      {
+        "name": "Florida State University",
+        "imageUrl": "https://imgs.search.brave.com/CYWn2QHvRvMdCuI2AtLx_0Jn4Y0RbV3ocllwr6t1vGY/rs:fit:736:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/WlgtTEJrN2dub09K/VG95anN4a2N3SGFF/eCZwaWQ9QXBp",
+        "address": "Tallahassee, FL",
+        "description": "Florida State University is a public research university in Tallahassee, Florida. It is a senior member of the State University System of Florida. Founded in 1851, it is located on the oldest continuous site of higher education in the state of Florida. "
+      }
+    ]
+  }

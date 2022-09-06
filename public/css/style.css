@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav a {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:550;
+  color:black;
+  background-color: grey;
+  text-align:center;
+  transition: all 0.2s;
+  
+}
+nav a:hover {
+    color: orange;
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    max-width: 60rem;
+  }
+  .container .list {
+    width: 35rem;
+    border: 2px solid lightgrey;
+
+  }
+  .container .empty {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .container .item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    
+  }
+  .container .item a {
+    text-decoration: none;
+  }
+  .container .item img {
+    width: 10rem;
+    height:10rem;
+  }
+  .container .item button {
+    position: absolute;
+    align-self: flex-end;
+    line-height: 2;
+    width: 2rem;
+    background: grey;
+    color: black;
+    opacity: 10%;
+  }
+  .container .item button:hover {
+    opacity: 100%;
+    cursor: pointer;
+  }
+
+  .singleItem img {
+    width: 40rem;
+  }
+
+  .container .studentForm {
+   position: absolute;
+   margin-left: 1000px;
+  }
+
+  .container .list a{
+    display:inline-block;
+padding:0.7em 1.4em;
+/* margin:0 0.3em 0.3em 0; */
+border-radius:0.15em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+text-transform:uppercase;
+font-weight:550;
+color:black;
+background-color:grey;
+box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+text-align:center;
+position:relative;
+  }
+
+  .container .campusForm {
+    position: absolute;
+    margin-left: 1050px;
+  }
+  
+  .container .list a{
+    display: flex;
+    flex-direction:column;
+    height: 38px
+  }
+
+
+  .campusForm {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    padding: 10px;
+    background: lightgrey;
+    align-self: flex-start;
+  }
+  .campusForm label {
+    font-size: 1.4em;
+    line-height: 2;
+  }
+  .campusForm input {
+    padding: 2px;
+    line-height: 2;
+    margin: 4px;
+  }
+  .campusForm textarea {
+    resize: vertical;
+    padding: 2px;
+  }
+  .campusForm button {
+    line-height: 2;
+    color: black;
+    background: grey;
+    margin-top: 20px;
+  }
+  .studentForm {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25rem;
+    padding: 10px;
+    background: lightgrey;
+    align-self: flex-start;
+    font-family:'Roboto',sans-serif;
+    
+  }
+  .studentForm label {
+    font-size: 1.4em;
+    line-height: 2;
+  }
+  .studentForm input {
+    padding: 2px;
+    line-height: 2;
+    margin: 4px;
+  }
+  .studentForm textarea {
+    resize: vertical;
+    padding: 2px;
+  }
+  .studentForm button {
+    line-height: 2;
+    color: black;
+    background: grey;
+    margin-top: 20px;
+  }
+
+
+  .extras {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid lightgrey;
+  }
+  .extras .campusAssociates {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .extras .campusAssociates a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    line-height: 2;
+  }
+  .extras .campusAssociates a:hover {
+    color: red;
+  }
+  .extras .campusAssociates button {
+    padding: 2px;
+    border-radius: 0.3rem;
+    color: black;
+    background: grey;
+  }
+  .extras .campusAssociates button:hover {
+    cursor: pointer;
+  }
+  .extras .campusAssociates .student {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 1px;
+    border: 1px solid lightgrey;
+  }
+  .extras .updateCampusForm {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  .extras .updateCampusForm * {
+    margin: 4px;
+  }
+  .extras .studentAssociates {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .extras .studentAssociates a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    line-height: 2;
+  }
+  .extras .studentAssociates button {
+    padding: 2px;
+    border-radius: 0.3rem;
+    color: black;
+    background: grey;
+  }
+  .extras .studentAssociates button:hover {
+    cursor: pointer;
+  }
+  .extras .studentAssociates .student {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 1px;
+    border: 1px solid lightgrey;
+  }
+
+  @media (max-width: 500px) {
+    .container {
+      background: rgb(0, 255, 136);
+    }
+  }
